@@ -1,124 +1,149 @@
-## 🚍 RouteWise – Intelligent Public Transport Optimization
+# 🚍 RouteWise - AI Transport Optimization System
 
-A data-driven system designed to reduce overcrowding and optimize urban public transport using real-world geospatial data and intelligent simulation.
-
----
-
-### 🎯 Problem
-
-Urban transport systems often suffer from:
-
-* Overcrowded buses during peak hours
-* Underutilized routes during off-peak times
-* Inefficient scheduling and poor route planning
+An intelligent **Public Transport Analytics & Optimization System** built using **Machine Learning + Interactive Streamlit Dashboard** to reduce overcrowding, improve scheduling, and enable smarter urban mobility decisions.
 
 ---
 
-### 💡 Solution
+## 🌐 Live Demo
 
-RouteWise builds a **smart transport optimization pipeline** that combines:
-
-* Real route & stop data (Nagpur-based)
-* Time-based passenger demand modeling
-* Traffic-aware route intelligence
-* Simulation-driven decision making
+👉 **Try the Live Project:**  
+https://routewise---ai-transport-optimization-system-yssewfosdumjt9kfg.streamlit.app/
 
 ---
 
-### ⚙️ Key Features
+## 📂 GitHub Repository
 
-#### 1. 📊 Demand Prediction Engine
-
-Forecasts passenger demand using time, peak-hour patterns, and historical trends.
-
-#### 2. 🛣 Dynamic Route Optimization
-
-Suggests efficient routes based on traffic conditions, distance, and travel time.
-
-#### 3. 🧑‍🤝‍🧑 Intelligent Load Balancing
-
-Detects overcrowded buses using load factor and redistributes demand.
-
-#### 4. ⏱ Smart Scheduling
-
-Adjusts bus frequency dynamically based on peak and off-peak demand.
-
-#### 5. 📈 Interactive Analytics Dashboard
-
-Visualizes:
-
-* Demand heatmaps
-* Route performance
-* Passenger distribution
-
-#### 6. 🚆 Multi-Modal Integration (Simulated)
-
-Aligns bus schedules with major transit hubs for seamless connectivity.
-
-#### 7. 🧪 What-If Simulation Engine
-
-Allows testing scenarios like:
-
-* Adding/removing buses
-* Changing routes
-* Adjusting schedules
+👉 **View Source Code:**  
+https://github.com/shreya975/RouteWise---AI-Transport-Optimization-System
 
 ---
 
-### 🧠 Data Pipeline
+## 📌 Problem Statement
 
-* Real geospatial route & stop data
-* Time-series generation (date, hour)
-* Passenger demand simulation (behavior-based)
-* Traffic & delay modeling
-* Feature engineering (load factor, demand level, etc.)
+Traditional public transport systems operate on **fixed routes and schedules**, while real-world passenger demand changes continuously.
 
----
+This creates issues such as:
 
-### 🛠 Tech Stack
+- 🚨 Overcrowded buses during peak hours  
+- 🚌 Underutilized buses during off-peak hours  
+- ⏳ Delays and poor commuter experience  
+- ⛽ Fuel and resource wastage  
 
-* Python
-* Pandas
-* NumPy
-* Geopy (geocoding)
-* OpenRouteService (distance & routing)
-* OSMnx (OpenStreetMap data extraction)
+RouteWise solves this using **AI-powered demand prediction and smart optimization.**
 
 ---
 
-### 📊 Dataset Features
+## 🔥 Core Features
 
-* Route & stop details
-* Latitude & Longitude
-* Time (date, hour, peak indicator)
-* Passenger demand
-* Traffic levels & delays
-* Load factor & demand classification
-
----
-
-### 🎯 Key Outcomes
-
-* Reduced overcrowding through load balancing
-* Improved route efficiency
-* Data-driven scheduling decisions
-* Scalable model for smart cities
+- 📊 Passenger Demand Prediction using Machine Learning  
+- 🚦 Traffic-Aware Decision System  
+- 🧠 Smart Service Recommendations  
+- 🗺️ Interactive Route Map Visualization  
+- 🔮 What-If Simulation (Add Extra Buses)  
+- 📈 Demand Heatmaps & Trend Analysis  
+- ⚠️ Overcrowding Detection  
+- 🔄 Alternative Route Suggestions  
+- 📋 Route Comparison Dashboard  
 
 ---
 
-### 💡 Future Scope
+## 🧠 System Intelligence
 
-* Real-time API integration with transport systems
-* Live passenger tracking
-* Mobile app for passenger alerts
-* Advanced ML models for prediction
+The system automatically suggests actions such as:
+
+- ➕ Add Extra Buses  
+- 🔁 Reroute Vehicles  
+- ⏱ Increase Service Frequency  
+- 🛑 Reduce Frequency During Low Demand  
+- ✅ Continue Normal Operation  
+
+### 📌 Decisions are based on:
+
+- Passenger Load  
+- Traffic Conditions  
+- Delay Time  
+- Peak Hours  
+- Route Demand Patterns  
 
 ---
 
-### 📍 Project Context
+## ⚙️ How It Works
 
-Built as part of a hackathon project focused on optimizing public transport in **Nagpur, India**, using a hybrid approach combining real data and intelligent simulation.
+1. Collect transport and demand-related data  
+2. Process data and create smart features  
+3. Use Random Forest ML Model for demand prediction  
+4. Analyze crowd level and route efficiency  
+5. Generate recommendations instantly  
+6. Display outputs through dashboard visualizations  
 
 ---
 
-⭐ If you found this project useful, consider giving it a star!
+## 📂 Dataset Features
+
+- Route & Stop Data  
+- GPS Coordinates (Latitude / Longitude)  
+- Passenger Demand Count  
+- Traffic Levels  
+- Delay & Speed Data  
+- Bus Load Factor  
+- Bus Count  
+- Travel Distance & Time  
+- Peak Hour Indicators  
+- AI Recommendation Fields  
+
+---
+
+## 🛠️ Tech Stack
+
+- Python 🐍  
+- Streamlit 🌐  
+- Scikit-learn 🤖  
+- Pandas 📊  
+- NumPy 🔢  
+- Plotly 📈  
+- Folium 🗺️  
+
+---
+
+## ▶️ Run Locally
+
+    git clone https://github.com/shreya975/RouteWise---AI-Transport-Optimization-System.git
+    cd RouteWise---AI-Transport-Optimization-System
+    pip install -r requirements.txt
+    python -m streamlit run app.py
+
+---
+
+## 📸 Dashboard Preview
+
+![Dashboard](Screenshot_1.jpeg)
+
+![Dashboard](Screenshot_2.jpeg)
+
+---
+
+## 💡 Future Improvements
+
+- 🚦 Live Traffic API Integration  
+- 📍 Real-time Bus GPS Tracking  
+- 🌦️ Weather-Based Demand Prediction  
+- 📱 Passenger Mobile App  
+- 🎫 Smart Ticketing Integration  
+- 🏙️ Government Smart City Deployment  
+- 🚇 Multi-Modal Transport Sync (Bus + Metro)  
+- 🤖 Deep Learning Based Demand Forecasting  
+- 📊 Advanced Admin Analytics Dashboard  
+
+---
+
+## 🏆 Project Background
+
+Built as a solution during a **24-Hour Hackathon at VNIT** to solve real-world transport challenges using **AI, Machine Learning, and Data Analytics**.
+
+The goal was to create a smart transport system that can predict passenger demand, optimize routes, and improve urban mobility efficiency.
+
+---
+
+## ❤️ Final Thought
+
+> RouteWise doesn’t just move people — it moves cities intelligently.
